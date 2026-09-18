@@ -1,0 +1,36 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Byte Code & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local Vector Store & Databases
+chroma/
+chroma_db/
+*.sqlite3
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Logs & Temporary Files
+*.log
+.cache/
